@@ -1,0 +1,95 @@
+/* ==rangeslider== */
+.rangeslider {
+	background: #E3E3E3;
+}
+.rangeslider-horizontal {
+	height: 10px;
+}
+.rangeslider-horizontal .rangeslider__fill {
+	background-color: #7A9EB1;
+}
+.rangeslider, .rangeslider .rangeslider__fill {
+	box-shadow: none;
+}
+.rangeslider .rangeslider__handle {
+	box-shadow: none;
+}
+.rangeslider .rangeslider__handle::after {
+	content: none;
+}
+.rangeslider-horizontal .rangeslider__handle {
+	width: 40px;
+	height: 20px;
+	border-radius: 5px;
+	top: 5px;
+}
+.rangeslider .rangeslider__handle {
+	background: #555;
+	border: none;
+}
+.rangeslider-horizontal .rangeslider__tooltip {
+	top: -0px;
+}
+.rangeslider .rangeslider__tooltip {
+	width: 40px;
+	height: 20px;
+	border-radius: 5px;
+	font-size: 13px;
+	background-color: rgba(0, 0, 0, 0);
+	opacity: 1;
+}
+.rangeslider .rangeslider__tooltip::After {
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid rgba(0, 0, 0, 0.75);
+	left: 12px;
+	bottom: -8px;
+	opacity: 0;
+}
+.rangeslider .rangeslider__tooltip span {
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+}
+/* ==rangeslider== */
+
+
+/* ==rc-checkbox== */
+.rc-checkbox-checked .rc-checkbox-inner {
+	border-color: #7A9EB1;
+	background-color: #7A9EB1;
+}
+.rc-checkbox-inner {
+	border-color: #b8b8b8;
+}
+.rc-checkbox:hover .rc-checkbox-inner, .rc-checkbox-input:focus+.rc-checkbox-inner {
+	border-color: #7A9EB1;
+}
+.rc-checkbox-checked:hover .rc-checkbox-inner {
+	border-color: #7A9EB1;
+}
+/* ==rc-checkbox== */
+
+
+/* ==dropdown== */
+.Dropdown-control {
+	border: 1px solid #d4d4d4;
+	color: inherit;
+	color: #707070;
+}
+.Dropdown-menu {
+	border: 1px solid #d4d4d4;
+}
+.Dropdown-option {
+	color: inherit;
+	color: #707070;
+}
+.Dropdown-option:hover {
+	color: #555;
+	background-color: #E3E3E3;
+}
+.Dropdown-option.is-selected {
+	color: #555;
+	background-color: #E3E3E3;
+}
+/* ==dropdown== */
