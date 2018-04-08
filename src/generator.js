@@ -338,7 +338,7 @@ class App extends Component {
                   <p>Color</p>
                   <ColorPicker
                     color={this.state.boxShadowColor}
-                    onChange={this.setBorderColor.bind(this)}
+                    onChange={this.setBoxShadowColor.bind(this)}
                     placement="bottomLeft"
                   />
                 </div>
@@ -395,7 +395,6 @@ class App extends Component {
               style={{
                 WebkitAppearance: "none",
                 MozAppearance: "none",
-                position: "relative",
 
                 width: this.state.width,
                 height: this.state.height,
@@ -429,7 +428,6 @@ class App extends Component {
             <li className="showCssProperty">-webkit-appearance: none;</li>
             <li className="showCssProperty">-moz-appearance: none;</li>
             <li className="showCssProperty">-o-appearance: none;</li>
-            <li className="showCssProperty">position: relative;</li>
             <li
               className={
                 this.state.width ? "showCssProperty" : "hideCssProperty"

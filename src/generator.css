@@ -137,12 +137,14 @@
 .codes_area ul {
   padding: 0;
   margin: 0;
+  overflow: auto;
 }
 .codes_area ul li {
   font-family: Consolas, monospace;
   font-size: 16px;
   color: #333;
   list-style: none;
+  white-space: nowrap;
 }
 
 .showCssProperty {
