@@ -530,6 +530,19 @@ class App extends Component {
               {this.state.checkedBoxShadowColor};
             </li>
             <li>&#125;</li>
+
+            <li>input.switch::-ms-check &#123;</li>
+            <li className="showCssProperty">
+              {" "}
+              -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+              /* IE 8 */
+            </li>
+            <li className="showCssProperty">
+              {" "}
+              filter: alpha(opacity=0); /* IE 5-7 */
+            </li>
+            <li className="showCssProperty"> opacity: 0;</li>
+            <li>&#125;</li>
           </ul>
         </section>
       </div>
